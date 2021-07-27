@@ -129,7 +129,8 @@ body{
  .main-section {
     list-style: none;}
 .portfolio-button {
-    font-family: inherit;}
+    font-family: inherit;
+    cursor: pointer;}
 .portfolio-button.primary {
     color: var(--accent-color);}
 .portfolio-button.secondary {}
