@@ -22,7 +22,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1738;
-    text-decoration: none 
+    text-decoration: none;
     }
 .logo-header {
     color: var(--logo-color);
@@ -173,7 +173,6 @@ body{
     }
 .filter-item {
     font-family: inherit;
-    cursor: pointer;
     }
 .filter-button.primary {
     color: var(--accent-color);
@@ -182,6 +181,7 @@ body{
 .filter-button:focus {
     color: var(--hero-title-color);
     background-color: var(--accent-color);
+    cursor: pointer;
     }
 .list{
     list-style: none;
